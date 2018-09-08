@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/project-mall" />
             <option value="$PROJECT_DIR$/project-search" />
             <option value="$PROJECT_DIR$/register-conter" />
+            <option value="$PROJECT_DIR$/zipkin-server" />
           </set>
         </option>
       </GradleProjectSettings>

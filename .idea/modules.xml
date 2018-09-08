@@ -14,6 +14,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/springcloud-test.iml" filepath="$PROJECT_DIR$/.idea/modules/springcloud-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/springcloud-test_main.iml" filepath="$PROJECT_DIR$/.idea/modules/springcloud-test_main.iml" group="springcloud-test" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/springcloud-test_test.iml" filepath="$PROJECT_DIR$/.idea/modules/springcloud-test_test.iml" group="springcloud-test" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zipkin-server/zipkin-server.iml" filepath="$PROJECT_DIR$/.idea/modules/zipkin-server/zipkin-server.iml" group="zipkin-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zipkin-server/zipkin-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/zipkin-server/zipkin-server_main.iml" group="zipkin-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zipkin-server/zipkin-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/zipkin-server/zipkin-server_test.iml" group="zipkin-server" />
     </modules>
   </component>
 </project>

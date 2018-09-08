@@ -1,0 +1,23 @@
+#↓配置中文以及根据环境选择源
+spring:
+  profiles:
+    active: test
+  banner:
+    charset: UTF-8
+  messages:
+    encoding: UTF-8
+  http:
+    encoding:
+      force: true
+      charset: UTF-8
+      enabled: true
+
+#spring.banner.charset=UTF-8
+#spring.messages.encoding=UTF-8
+#spring.http.encoding.force=true
+#spring.http.encoding.charset=UTF-8
+#spring.http.encoding.enabled=true
+#
+#server.port=8080
+#server.servlet.context-path=/bootdemo
+#server.tomcat.uri-encoding=UTF-8
