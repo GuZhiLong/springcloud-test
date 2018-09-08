@@ -1,4 +1,7 @@
 dependencies {
     //eureka的客户端组件
     compile 'org.springframework.cloud:spring-cloud-starter-eureka'
+    //分布式链路追踪
+    compile "org.springframework.cloud:spring-cloud-starter-sleuth"
+    compile "org.springframework.cloud:spring-cloud-sleuth-zipkin"
 }

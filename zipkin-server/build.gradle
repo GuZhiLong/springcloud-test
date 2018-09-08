@@ -2,13 +2,3 @@ dependencies {
     compile 'io.zipkin.java:zipkin-server'
     compile 'io.zipkin.java:zipkin-autoconfigure-ui'
 }
-
-//创建src目录
-//task "create-dirs" << {
-//    sourceSets*.java.srcDirs*.each {
-//        it.mkdirs()
-//    }
-//    sourcScts*.resources.srcDirs*.each{
-//        it.midirs()
-//    }
-//}
