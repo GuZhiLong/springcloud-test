@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="project-mall_main" target="1.8" />
+      <module name="project-mall_test" target="1.8" />
+      <module name="project-search_main" target="1.8" />
+      <module name="project-search_test" target="1.8" />
+      <module name="register-conter_main" target="1.8" />
+      <module name="register-conter_test" target="1.8" />
+      <module name="reigster-conter_main" target="1.8" />
+      <module name="reigster-conter_test" target="1.8" />
+      <module name="springcloud-test_main" target="1.8" />
+      <module name="springcloud-test_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

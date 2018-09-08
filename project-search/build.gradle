@@ -1,0 +1,4 @@
+dependencies {
+    //eureka的客户端组件
+    compile 'org.springframework.cloud:spring-cloud-starter-eureka'
+}

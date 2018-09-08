@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project-mall.iml" filepath="$PROJECT_DIR$/.idea/modules/project-mall.iml" group="project-mall" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project-mall/project-mall_main.iml" filepath="$PROJECT_DIR$/.idea/modules/project-mall/project-mall_main.iml" group="project-mall" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project-mall/project-mall_test.iml" filepath="$PROJECT_DIR$/.idea/modules/project-mall/project-mall_test.iml" group="project-mall" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project-search.iml" filepath="$PROJECT_DIR$/.idea/modules/project-search.iml" group="project-search" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project-search/project-search_main.iml" filepath="$PROJECT_DIR$/.idea/modules/project-search/project-search_main.iml" group="project-search" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project-search/project-search_test.iml" filepath="$PROJECT_DIR$/.idea/modules/project-search/project-search_test.iml" group="project-search" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/register-conter.iml" filepath="$PROJECT_DIR$/.idea/modules/register-conter.iml" group="register-conter" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/register-conter/register-conter_main.iml" filepath="$PROJECT_DIR$/.idea/modules/register-conter/register-conter_main.iml" group="register-conter" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/register-conter/register-conter_test.iml" filepath="$PROJECT_DIR$/.idea/modules/register-conter/register-conter_test.iml" group="register-conter" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springcloud-test.iml" filepath="$PROJECT_DIR$/.idea/modules/springcloud-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springcloud-test_main.iml" filepath="$PROJECT_DIR$/.idea/modules/springcloud-test_main.iml" group="springcloud-test" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springcloud-test_test.iml" filepath="$PROJECT_DIR$/.idea/modules/springcloud-test_test.iml" group="springcloud-test" />
+    </modules>
+  </component>
+</project>

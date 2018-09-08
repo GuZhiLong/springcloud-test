@@ -1,0 +1,5 @@
+rootProject.name = 'springcloud-test'
+include 'register-conter'
+include 'project-search'
+include 'project-mall'
+

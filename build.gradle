@@ -1,0 +1,78 @@
+apply plugin: 'java'
+apply plugin: 'spring-boot'
+
+sourceCompatibility = 1.8
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+//在编译构建时的配置
+buildscript {
+    ext {
+        springBootVersion = '1.5.10.RELEASE'
+    }
+    repositories {
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+        jcenter()
+        mavenCentral()
+        //Spring repo
+        maven { url "http://repo.spring.io/snapshot" }
+        maven { url "http://repo.spring.io/milestone" }
+        maven { url "http://repo.spring.io/release" }
+        maven { url 'http://repo.spring.io/plugins-snapshot' }
+    }
+
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+
+}
+
+//可以统一所有项目的配置
+allprojects {
+
+    group 'com.gu'
+    version '1.0-SNAPSHOT'
+
+    ext {
+        springCloudVersion = 'Edgware.SR2'
+    }
+
+    repositories {
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+        jcenter()
+        mavenCentral()
+        //Spring repo
+        maven { url "http://repo.spring.io/snapshot" }
+        maven { url "http://repo.spring.io/milestone" }
+        maven { url "http://repo.spring.io/release" }
+        maven { url 'http://repo.spring.io/plugins-snapshot' }
+    }
+}
+//统一子项目的配置
+subprojects {
+
+    apply plugin: 'java'
+    apply plugin: 'idea'
+    apply plugin: 'spring-boot'
+
+
+    dependencies {
+        compile ('org.springframework.boot:spring-boot-starter-web'){
+            exclude module:"spring-boot-starter-tomcat"
+        }
+        compile 'org.springframework.boot:spring-boot-starter-undertow'
+        //健康检查
+        compile 'org.springframework.boot:spring-boot-starter-actuator'
+        testCompile(
+                group: 'junit', name: 'junit', version: '4.12'
+        )
+    }
+
+    dependencyManagement {
+        imports {
+            mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+        }
+    }
+
+}

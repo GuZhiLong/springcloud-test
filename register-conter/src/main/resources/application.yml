@@ -1,0 +1,17 @@
+server:
+  port: 8081
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka/
+    fetch-registry: false
+    register-with-eureka: false           #启动时不进行注册，表示自己是注册中心
+
+    #配置集群
+#    service-url:
+#      defaultZone: http://localhost:8081/eureka/   #多个使用逗号隔开
+#    fetch-registry: true
+#    register-with-eureka: true
+spring:
+  application:
+    name: register-conter
